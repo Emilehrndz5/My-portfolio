@@ -1,9 +1,9 @@
 /* 1. Estilos base, navegación y estructura general */
 :root {
-  --paper: #f5f4f0;
-  --ink: #181816;
-  --muted: #797872;
-  --line: #d8d7d0;
+  --paper: #11151b;
+  --ink: #eef2f7;
+  --muted: #9aa6b5;
+  --line: #303a47;
   --mono: "DM Mono",monospace;
   --sans: "Manrope",Arial,sans-serif;
   --serif: Georgia,"Times New Roman",serif
@@ -53,7 +53,7 @@ button {
 }
 
 .brand span {
-  color: #f15e3f
+  color: #348bff
 }
 
 .menu-toggle,.hero-meta,.eyebrow,.tags,.ruta-top,.forma-index,.about-footer,.contact-bottom,footer,.menu-panel>p,.work-end>span {
@@ -125,7 +125,7 @@ button {
 .menu-panel sup {
   font: 11px var(--mono);
   letter-spacing: 0;
-  color: #f15e3f;
+  color: #348bff;
   vertical-align: top;
   margin-left: 8px
 }
@@ -176,7 +176,7 @@ button {
 
 .star {
   font-size: clamp(25px,4vw,55px);
-  color: #f15e3f;
+  color: #348bff;
   vertical-align: top;
   display: inline-block;
   animation: rotate 20s linear infinite;
@@ -247,7 +247,7 @@ button {
 
 .hero-orbit span {
   font: italic 150px var(--serif);
-  color: #f15e3f;
+  color: #348bff;
   opacity: .13;
   transform: rotate(19deg)
 }
@@ -257,7 +257,7 @@ button {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background: #f15e3f;
+  background: #348bff;
   top: 12%;
   right: 22%
 }
@@ -444,7 +444,7 @@ button {
 }
 
 .art-ruta {
-  background: #e9ad72
+  background: #183252
 }
 
 .ruta-top {
@@ -473,7 +473,7 @@ button {
   position: absolute;
   width: 130%;
   height: 54%;
-  border: 1.5px solid #eb644a;
+  border: 1.5px solid #348bff;
   border-radius: 50%;
   left: -12%;
   top: 56%;
@@ -486,7 +486,7 @@ button {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background: #eb644a;
+  background: #348bff;
   top: 50%;
   left: 24%
 }
@@ -512,7 +512,7 @@ button {
 }
 
 .art-forma {
-  background: #a8b9ca
+  background: #202e42
 }
 
 .forma-shape {
@@ -525,7 +525,7 @@ button {
   height: 140%;
   left: 17%;
   top: -18%;
-  background: #f15e3f;
+  background: #348bff;
   border-radius: 50%;
   transform: rotate(29deg)
 }
@@ -604,7 +604,7 @@ button {
 }
 
 .work-end b {
-  color: #f15e3f;
+  color: #348bff;
   margin-left: 9px
 }
 
@@ -662,7 +662,7 @@ button {
 }
 
 .text-link span {
-  color: #f15e3f
+  color: #348bff
 }
 
 .about-footer {
@@ -706,7 +706,7 @@ button {
 
 .contact-cta span {
   font-size: 21px;
-  color: #f15e3f;
+  color: #348bff;
   transition: transform .3s
 }
 
@@ -956,7 +956,7 @@ footer a:last-child {
   margin: 0 0 8px;
   text-transform: uppercase;
   font: italic 27px var(--serif);
-  color: #c89ce8;
+  color: #91c7ff;
   letter-spacing: -.04em
 }
 
@@ -1166,7 +1166,7 @@ footer a:last-child {
 
 .experience-mark {
   font-size: 19px;
-  color: #f15e3f;
+  color: #348bff;
   justify-self: end
 }
 
@@ -1243,7 +1243,7 @@ footer a:last-child {
 }
 
 .quick-nav a:hover {
-  color: #f15e3f
+  color: #348bff
 }
 
 .topbar .menu-toggle {
@@ -1262,7 +1262,7 @@ footer a:last-child {
 
 /* 7. Editor de historia personal */
 .story-page .quick-nav .current {
-  color: #f15e3f
+  color: #348bff
 }
 
 .story-hero {
@@ -1880,7 +1880,7 @@ footer a:last-child {
   font-size: 16px;
   line-height: 2;
   color: #d2d1cc;
-  margin: 0 0 27px
+  margin: 0 0 14px
 }
 
 .article-next {
@@ -2028,12 +2028,12 @@ footer a:last-child {
 
 /* 9. Acentos naranjas del archivo */
 .archive-page .quick-nav a:hover,.archive-page .quick-nav a.current,.archive-period,.write-link span,.story-number,.story-open,.archive-outro b,.back-to-archive:hover,.article-next a:hover {
-  color: #ff8a3d
+  color: #64adff
 }
 
 .symbol-origin {
-  background: #402719;
-  color: #ffad66
+  background: #1b3657;
+  color: #91c7ff
 }
 
 .symbol-origin span {
@@ -2041,26 +2041,26 @@ footer a:last-child {
 }
 
 .story-meta span:first-child {
-  border-color: #704322;
-  color: #ffad66
+  border-color: #365985;
+  color: #91c7ff
 }
 
 .story-open {
-  border-color: #704322
+  border-color: #365985
 }
 
 .story-card:hover .story-open {
-  background: #ff8a3d;
+  background: #64adff;
   color: #111
 }
 
 .article-kicker {
-  color: #ffad66
+  color: #91c7ff
 }
 /* 10. Pulido visual e interacciones */
 :root {
-  --accent: #f15e3f;
-  --accent-soft: #ff8a3d;
+  --accent: #348bff;
+  --accent-soft: #64adff;
   --transition-ui: 260ms cubic-bezier(.2,.7,.2,1);
 }
 
@@ -2171,6 +2171,76 @@ footer a:last-child {
     transition-duration: .01ms !important;
   }
 }
+
+/* 13. Tipografía más limpia para el archivo de historias */
+.archive-intro h1 {
+  font: 800 clamp(76px, 14vw, 176px)/.88 var(--sans);
+  letter-spacing: -.085em;
+}
+
+.story-card-title h2 {
+  font: 600 clamp(30px, 3.5vw, 42px)/.95 "Caveat", cursive;
+  letter-spacing: -.025em;
+  color: #64adff;
+}
+
+.article-page h1 {
+  max-width: 780px;
+  font: 600 clamp(60px, 8.5vw, 104px)/.92 "Caveat", cursive;
+  letter-spacing: -.025em;
+  color: #64adff;
+}
+
+.article-deck {
+  font-size: 17px;
+  letter-spacing: -.02em;
+}
+
+.article-content p {
+  font-size: 16px;
+  line-height: 1.95;
+  letter-spacing: -.015em;
+  margin-bottom: 14px;
+}
+
+/* 14. Encabezados condensados inspirados en la referencia */
+.archive-intro h1,
+.story-card-title h2,
+.article-page h1 {
+  font-family: "Anton", "Oswald", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: -.025em;
+  color: #f4f5f7;
+}
+
+.story-card-title h2 {
+  font-size: clamp(27px, 3.4vw, 40px);
+  line-height: 1.02;
+}
+
+.article-page h1 {
+  font-size: clamp(62px, 9.2vw, 108px);
+  line-height: .98;
+}
+
+@media (max-width: 700px) {
+  .archive-intro h1 {
+    font-size: 19vw;
+  }
+
+  .story-card-title h2 {
+    font-size: 30px;
+  }
+
+  .article-page h1 {
+    font-size: clamp(52px, 14vw, 82px);
+  }
+
+  .story-card-title h2 {
+    font-size: 26px;
+  }
+}
 /* 11. Portada personal, inspirada en el enfoque editorial de Ragosorio */
 .hero {
   height: min(790px, calc(100svh - 76px));
@@ -2208,7 +2278,7 @@ footer a:last-child {
 }
 
 .hero-greeting {
-  color: #ff8a3d;
+  color: #64adff;
   font: 600 clamp(38px,5vw,68px)/.9 Caveat,cursive;
   margin: 0 0 -3px 4px;
   transform: rotate(-4deg);
@@ -2223,7 +2293,7 @@ footer a:last-child {
 }
 
 .hero-period {
-  color: #f15e3f;
+  color: #348bff;
 }
 
 .hero-role {
@@ -2235,7 +2305,7 @@ footer a:last-child {
 }
 
 .hero-role span {
-  color: #f15e3f;
+  color: #348bff;
   font-family: var(--serif);
   font-style: italic;
 }
@@ -2276,14 +2346,14 @@ footer a:last-child {
 }
 
 .hero-action-primary {
-  background: #f15e3f;
+  background: #348bff;
   color: #171715;
-  border: 1px solid #f15e3f;
+  border: 1px solid #348bff;
 }
 
 .hero-action-primary:hover {
-  background: #ff8a3d;
-  border-color: #ff8a3d;
+  background: #64adff;
+  border-color: #64adff;
 }
 
 .hero-action-secondary {
@@ -2292,8 +2362,8 @@ footer a:last-child {
 }
 
 .hero-action-secondary:hover {
-  border-color: #ff8a3d;
-  color: #ff8a3d;
+  border-color: #64adff;
+  color: #64adff;
 }
 
 .hero-visual {
@@ -2328,7 +2398,7 @@ footer a:last-child {
   position: absolute;
   inset: 25%;
   border-radius: 50%;
-  background: radial-gradient(circle at 35% 32%, #ffb15f, #f15e3f 48%, #8f3028 100%);
+  background: radial-gradient(circle at 35% 32%, #a9d1ff, #348bff 48%, #174e9c 100%);
   box-shadow: 0 0 90px rgba(241,94,63,.2), inset -18px -18px 35px rgba(35,20,15,.2);
 }
 
@@ -2386,7 +2456,7 @@ footer a:last-child {
   position: absolute;
   top: 17%;
   left: 13%;
-  color: #ff8a3d;
+  color: #64adff;
   font-size: 31px;
   animation: rotate 18s linear infinite;
 }
@@ -2404,7 +2474,7 @@ footer a:last-child {
 }
 
 .hero-scroll i {
-  color: #f15e3f;
+  color: #348bff;
   font: normal 16px var(--sans);
   transition: transform var(--transition-ui);
 }
@@ -2433,7 +2503,7 @@ footer a:last-child {
 }
 
 .focus-strip article > span {
-  color: #f15e3f;
+  color: #348bff;
   font: 9px var(--mono);
 }
 
@@ -2540,5 +2610,206 @@ footer a:last-child {
 
   .focus-strip h2 {
     margin: 7px 0 3px;
+  }
+}
+/* 12. Tema oscuro y acentos azules */
+body {
+  background: #11151b;
+  color: #eef2f7;
+}
+
+.topbar {
+  background: #11151b;
+  border-color: #303a47;
+}
+
+.menu-panel {
+  background: #1b222c;
+  color: #eef2f7;
+}
+
+.hero {
+  background: #101720;
+}
+
+.work-section {
+  background: #1a2029;
+}
+
+.section-heading > p,
+.project-info p,
+.about-copy p,
+.experience-head > p,
+.experience-role p {
+  color: #a5afbd;
+}
+
+.project-arrow {
+  background: #11151b;
+  color: #eef2f7;
+  border: 1px solid #48576a;
+}
+
+.tags {
+  color: #a8b2bf;
+}
+
+.tags span,
+.experience-tags span {
+  border-color: #3a4654;
+  color: #b2bdcb;
+}
+
+.art-luma {
+  background: #24372f;
+}
+
+.luma-copy {
+  color: #eaf2e9;
+}
+
+.coffee-ring {
+  border-color: #8ba28d;
+}
+
+.art-ruta {
+  background: #183252;
+}
+
+.ruta-top {
+  border-color: #b8cce4;
+  color: #e3efff;
+}
+
+.ruta-word {
+  color: #f0f5ff;
+}
+
+.ruta-path {
+  border-color: #348bff;
+}
+
+.ruta-path::before,
+.ruta-path::after {
+  background: #348bff;
+}
+
+.ruta-stamp {
+  border-color: #dae8fb;
+  color: #f0f5ff;
+}
+
+.art-forma {
+  background: #202e42;
+}
+
+.shape1 {
+  background: #348bff;
+}
+
+.shape2 {
+  background: #6faeff;
+}
+
+.shape3 {
+  background: #b9d8ff;
+}
+
+.work-end {
+  border-color: #3a4654;
+}
+
+.work-end > span,
+.about-footer,
+.experience-year span,
+.experience-role h3 {
+  color: #9aa6b5;
+}
+
+.about-smile,
+.round-link {
+  border-color: #69788b;
+}
+
+.contact {
+  background: #151b24;
+}
+
+.contact-form {
+  background: #10151d;
+  border-color: #3a4654;
+}
+
+.story-editor {
+  background: #1a2029;
+}
+
+.story-section-title > p,
+.story-field label,
+.story-save-row p {
+  color: #a5afbd;
+}
+
+.story-field,
+.story-save-row {
+  border-color: #3a4654;
+}
+
+.story-field input,
+.story-field textarea {
+  color: #eef2f7;
+}
+
+.story-field input:focus,
+.story-field textarea:focus {
+  background: #111720;
+  border-color: #4b94ed;
+}
+
+.story-field input::placeholder,
+.story-field textarea::placeholder {
+  color: #8592a2;
+}
+
+.story-save-row button {
+  color: #eef2f7;
+  border-color: #566579;
+}
+
+.story-save-row button:hover {
+  background: #263241;
+}
+
+.story-experience > div > p {
+  color: #a5afbd;
+}
+
+.focus-strip {
+  background: #171d26;
+  border-color: #303a47;
+}
+
+.focus-strip article + article {
+  border-color: #303a47;
+}
+
+.focus-strip p {
+  color: #a5afbd;
+}
+
+.archive-page {
+  background: #0c1015;
+}
+
+.archive-page .topbar,
+.archive-footer {
+  background: #0c1015;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    animation-duration: .01ms !important;
+    transition-duration: .01ms !important;
   }
 }
