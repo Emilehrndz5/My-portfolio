@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f5f4f0" />
+  <meta name="description" content="La historia de Rodrigo, diseñador y desarrollador digital en formación en Guatemala." />
+  <title>Escribir mi historia — Rodrigo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="js/nav.js" defer></script>
+  <script src="js/write-story.js" defer></script>
+  <script src="js/effects.js" defer></script>
+</head>
+<body class="story-page">
+  <header class="topbar">
+    <a class="brand" href="index.html#inicio" aria-label="R. Inicio">R<span>.</span></a>
+    <nav class="quick-nav" aria-label="Navegación principal"><a href="index.html#sobre-mi">Sobre mí</a><a href="index.html#experiencia">Experiencias</a><a href="index.html#trabajo">Proyectos</a><a href="index.html#contacto">Contacto</a><a class="current" href="historias.html">Historias</a></nav>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="site-menu"><span>MENÚ</span><b><i></i><i></i></b></button>
+  </header>
+  <nav class="menu-panel" id="site-menu" aria-hidden="true">
+    <a href="index.html#sobre-mi">Sobre mí <sup>01</sup></a><a href="index.html#experiencia">Experiencias <sup>02</sup></a><a href="index.html#trabajo">Proyectos <sup>03</sup></a><a href="index.html#contacto">Contacto <sup>04</sup></a><a href="historias.html">Historias <sup>05</sup></a>
+    <p>DISEÑO · DESARROLLO · CURIOSIDAD</p>
+  </nav>
+
+  <main>
+    <section class="story-hero">
+      <div class="story-hero-meta"><span>GUATEMALA · 2026</span><span>UN ESPACIO PARA CONTAR MI CAMINO</span></div>
+      <p class="eyebrow">EDITOR PERSONAL · BORRADOR</p>
+      <h1>Escribe<br /><span class="serif">tu historia.</span></h1>
+      <p class="story-lede">Cada proyecto suma una idea, una experiencia y una nueva forma de mirar lo digital. Aquí empieza la mía.</p>
+      <a class="round-link story-down" href="#escribir" aria-label="Escribir mi historia">↓</a>
+      <span class="story-ornament" aria-hidden="true">R.</span>
+    </section>
+
+    <section class="story-editor" id="escribir">
+      <div class="story-section-title"><span class="eyebrow">01 / MI RECORRIDO</span><p>Escribe y organiza los capítulos de tu historia. Tus cambios se guardan automáticamente en este navegador.</p></div>
+      <form id="story-form">
+        <div class="story-field story-title-field"><label for="story-name">Mi nombre</label><input id="story-name" name="name" value="Rodrigo" maxlength="60" /></div>
+        <div class="story-field story-title-field"><label for="story-role">A qué me dedico</label><input id="story-role" name="role" value="Diseñador y desarrollador digital" maxlength="100" /></div>
+        <div class="story-field"><label for="story-intro">01 — El comienzo</label><textarea id="story-intro" name="intro" rows="5" placeholder="¿Cómo empezó tu interés por el diseño, la tecnología o la creación?">Me interesa cómo una idea puede convertirse en algo que las personas usan y disfrutan. Por eso exploro el diseño y el desarrollo web: dos formas de resolver problemas y dar vida a experiencias digitales.</textarea></div>
+        <div class="story-field"><label for="story-learning">02 — Lo que estoy aprendiendo</label><textarea id="story-learning" name="learning" rows="5" placeholder="Cuéntame qué estás aprendiendo y qué te gustaría dominar.">Actualmente soy practicante en ROO Guatemala, donde continúo aprendiendo y colaborando en proyectos digitales. Me gusta participar tanto en la parte visual como en la construcción de las ideas para la web.</textarea></div>
+        <div class="story-field"><label for="story-values">03 — Lo que me mueve</label><textarea id="story-values" name="values" rows="5" placeholder="¿Qué te inspira? ¿Qué valoras al trabajar?">Me motiva aprender herramientas nuevas, cuidar los detalles y crear soluciones claras, útiles y agradables. Para mí, un buen proyecto combina curiosidad, colaboración y atención a las personas que lo van a usar.</textarea></div>
+        <div class="story-field"><label for="story-next">04 — Lo que viene</label><textarea id="story-next" name="next" rows="4" placeholder="¿Qué te gustaría hacer después? ¿Qué metas tienes?"></textarea></div>
+        <div class="story-save-row"><p id="save-status" aria-live="polite">Los cambios se guardan en este dispositivo.</p><button type="button" id="reset-story">Restaurar borrador inicial</button></div>
+      </form>
+    </section>
+
+    <section class="story-experience"><span class="eyebrow">02 / HOY</span><div><h2>Practicante en<br /><span class="serif">ROO Guatemala.</span></h2><p>En 2026 participo como diseñador y desarrollador, sumando experiencia en proyectos digitales y aprendiendo a llevar ideas desde el concepto hasta su implementación.</p><a href="index.html#experiencia" class="text-link">VER EXPERIENCIA <span>↗</span></a></div><span class="story-year">2026</span></section>
+    <section class="story-end"><p class="eyebrow">CADA HISTORIA SIGUE CRECIENDO</p><a href="index.html#contacto">¿Hablamos de una idea? <span>↗</span></a></section>
+  </main>
+  <footer><a class="brand" href="index.html#inicio">R<span>.</span></a><span>HECHO CON CURIOSIDAD © 2026</span><a href="#inicio">VOLVER ARRIBA ↑</a></footer>
+</body>
+</html>

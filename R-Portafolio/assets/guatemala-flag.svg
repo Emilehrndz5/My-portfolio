@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 16" role="img" aria-labelledby="title">
+  <title id="title">Bandera de Guatemala</title>
+  <rect width="24" height="16" rx="1" fill="#fff" />
+  <path fill="#4997d0" d="M0 1a1 1 0 0 1 1-1h6v16H1a1 1 0 0 1-1-1zm17-1h6a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1h-6z" />
+  <path d="M12 4v8m-2-6 4 4m0-4-4 4" stroke="#49825b" stroke-width=".8" stroke-linecap="round" />
+</svg>
