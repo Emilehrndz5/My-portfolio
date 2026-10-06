@@ -13,7 +13,7 @@ const stories = {
   roo: {
     number: 'Nº 002',
     category: 'EXPERIENCIA',
-    title: 'Aprender haciendo en ROO Guatemala',
+    title: 'Prácticas en ROO',
     deck: 'Mi experiencia como practicante.',
     paragraphs: [
       'En 2026 comencé mi práctica en ROO Guatemala. Es una oportunidad para involucrarme en proyectos digitales y continuar aprendiendo desde el trabajo real.',
